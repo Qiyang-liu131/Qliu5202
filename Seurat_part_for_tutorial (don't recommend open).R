@@ -2,6 +2,7 @@ library(Seurat)
 
 # Load your mouse dataset, the original dataset is available at
 # https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6128372
+# Let me know if you have trouble to open the file
 KOmouse_testis_ko <- Read10X(data.dir = "/change/to/your/local/file/location/")
 KOmouse_seurat <- CreateSeuratObject(counts = KOmouse_testis_ko)
 
