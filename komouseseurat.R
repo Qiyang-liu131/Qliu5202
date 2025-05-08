@@ -44,4 +44,4 @@ merged_KOmouse_seurat <- RunUMAP(merged_KOmouse_seurat, dims = 1:10)
 # Plot UMAP showing all stages (Spermatogonia, Spermatocytes, Spermatids)
 DimPlot(merged_KOmouse_seurat, reduction = "umap", group.by = "stage")
 
-saveRDS(merged_KOmouse_seurat, "C:/Users/qiyang_liu1/Desktop/EvolTESTIS/komouse/Data/merged_KOmouse_seurat.rds")
+saveRDS(merged_KOmouse_seurat, "/change/to/your/local/file/location/")
