@@ -1,3 +1,6 @@
+# This is the scripts to proceed the orginal dataset from NCBI-GEO and 
+# to generate the RDS file "merged_KOmouse_seurat.rds" in my repositories
+
 library(Seurat)
 
 # Load your mouse dataset, the original dataset is available at
